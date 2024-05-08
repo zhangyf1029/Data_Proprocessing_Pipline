@@ -71,10 +71,10 @@ cd <repo>
 2. Create a conda environment with `requirements.yaml`
 ```
 conda env create -f requirements.yaml
-conda activate <env_name> #Here environment name is Harvar-interview-homework, found in requirements.yaml
+conda activate <env_name> #Here environment name is Harvard-interview-homework
 ```
 3. Run the pipeline
-> Way 1: run through snakefile
+> Way 1: run through Snakefile
 >  ```
 >  snakemake -s Snakefile.smk --core all
 >  ```
