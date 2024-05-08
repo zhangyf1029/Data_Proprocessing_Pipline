@@ -7,7 +7,7 @@
 **conf**
 * [conf/config.yaml](https://github.com/zhangyf1029/Harvard_Interview_Homework/tree/main/conf) contains default configurations for [download.py](https://github.com/zhangyf1029/Harvard_Interview_Homework/tree/main) and [database.py](https://github.com/zhangyf1029/Harvard_Interview_Homework/tree/main).
 * [conf/download/download.yaml](https://github.com/zhangyf1029/Harvard_Interview_Homework/tree/main/conf/download) specifies the download options of `Years`, `Samples` and output path as `out_dir`.
-> Examples of download.py
+> Examples of download.yaml
 > 1. Download `all available years` in `all samples` to the directory `./Data`
 >   ```
 >    Years:
@@ -36,7 +36,7 @@
 >   out_dir: ./Data
 >   ```
 * [conf/database/database.yaml](https://github.com/zhangyf1029/Harvard_Interview_Homework/tree/main/conf/database) specifies the sample(s) to obtain the yearly state-level all-cause hospitalization risk, and Age_Groups for the stratification.
-> Example of database.py
+> Example of database.yaml
 > * Processed samples `1, 2, 4, 8, and 10`(specific samples in database.yaml have to be a `subset` of samples in download.yaml). Stratified the Age into groups of `<18`, `18-30`, `30-50`, `50-70`, `70-100` and `>100`. Output the processed data to `./Output_Data/`.
 >  ```
 >  Samples:
@@ -59,7 +59,7 @@
 >  Data_Path: ./Data/
 >  Output_Path: ./Output_Data/
 >  ```
-* [Snakefile.smk](https://github.com/zhangyf1029/Harvard_Interview_Homework/tree/main) manage the workflow. Please adjust `.yaml` file according to needs.
+
 
 ## Run
 **Conda Environment**
@@ -78,7 +78,7 @@ conda activate <env_name> #Here environment name is Harvard-interview-homework
 >  ```
 >  snakemake -s Snakefile.smk --core all
 >  ```
-
+> [Snakefile.smk](https://github.com/zhangyf1029/Harvard_Interview_Homework/tree/main) manage the workflow. Please adjust `.yaml` file according to needs.
 
 > Way 2: run step by step manually
 >  ```
