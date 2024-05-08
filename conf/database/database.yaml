@@ -1,0 +1,19 @@
+Samples:
+  Full: null
+  Part: 
+    - 1
+    - 2
+    - 4
+    - 8
+    - 10
+Groups:
+  Sex: null
+  Race: null
+  Age_Groups: 
+    - 18
+    - 30
+    - 50
+    - 70
+    - 100
+Data_Path: ./Data/
+Output_Path: ./Output_Data/
