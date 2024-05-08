@@ -1,0 +1,12 @@
+Years:
+  Full: null
+  Part: null
+Samples:
+  Full: null
+  Part: 
+    - 1
+    - 2
+    - 4
+    - 8
+    - 10
+out_dir: ./Data
