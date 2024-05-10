@@ -88,6 +88,6 @@ conda activate <env_name> #Here environment name is Harvard-interview-homework
 >  ```
 >  python database.py
 >  ```
-> Processed results will be in `./Output_Data` set in `database.yaml`. The firectory will also be created by scripts if it does not exist.
+> Processed results will be in `./Output_Data` set in `database.yaml`. The directory will also be created by scripts if it does not exist.
 
 
