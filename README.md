@@ -1,4 +1,4 @@
-# Harvard_Interview_Homework
+# Pipline for files downloading and preprocessing
 * Download the `CMS Beneficiary Summary DE-SynPUF` and `Inpatient Claims` zip files, and unzip the contents as CSV files.
 * Obtain yearly state-level all-cause hospitalization risk stratified by sex, race, and age prespecified groups.
 * Also contains Snakefile for workflow management and .yaml files for configurations.
